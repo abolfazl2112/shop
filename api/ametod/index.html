@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>وبسرویس</title>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="user.getUsers.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>get users</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="submit" type="submit" value="send Sms ">
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="user.delUser.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>get users</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="uid" type="text" placeholder="user id">
+            <br>
+            <input name="submit" type="submit" value="send Sms ">
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="user.addUser.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>add user</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="name" type="text" placeholder="name">
+            <br>
+            <input name="family" type="text" placeholder="family">
+            <br>
+            <input name="username" type="text" placeholder="username">
+            <br>
+            <input name="password" type="text" placeholder="password">
+            <br>
+            <input name="father" type="text" placeholder="father">
+            <br>
+            <input name="mobile" type="text" placeholder="mobile">
+            <br>
+            <input name="credit" type="text" placeholder="credit">
+            <br>
+            <input name="address" type="text" placeholder="address">
+            <br>
+            <input name="picture" type="file" placeholder="picture">
+            <br>
+            <input name="submit" type="submit" value="add user">
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="user.editUser.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>edit user</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="id" type="text" placeholder="id">
+            <br>
+            <input name="name" type="text" placeholder="name">
+            <br>
+            <input name="family" type="text" placeholder="family">
+            <br>
+            <input name="username" type="text" placeholder="username">
+            <br>
+            <input name="password" type="text" placeholder="password">
+            <br>
+            <input name="father" type="text" placeholder="father">
+            <br>
+            <input name="mobile" type="text" placeholder="mobile">
+            <br>
+            <input name="credit" type="text" placeholder="credit">
+            <br>
+            <input name="address" type="text" placeholder="address">
+            <br>
+            <input name="picture" type="file" placeholder="picture">
+            <br>
+            <input name="submit" type="submit" value="edit user">
+        </form>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="product.getProducts.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>get products</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="submit" type="submit" value="get products ">
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="product.delProduct.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>get products</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="pid" type="text" placeholder="pid">
+            <br>
+            <input name="submit" type="submit" value="get products ">
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="product.addProduct.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>add products</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="rid" type="text" placeholder="resseller id">
+            <br>
+            <input name="cid" type="text" placeholder="category id">
+            <br>
+            <input name="subject" type="text" placeholder="subject">
+            <br>
+            <input name="description" type="text" placeholder="description">
+            <br>
+            <input name="picName" type="text" placeholder="picName">
+            <br>
+            <input name="priceBuy" type="text" placeholder="priceBuy">
+            <br>
+            <input name="priceSell" type="text" placeholder="priceSell">
+            <br>
+            <input name="number" type="text" placeholder="number">
+            <br>
+            <input name="weight" type="text" placeholder="weight">
+            <br>
+            <input name="size" type="text" placeholder="size">
+            <br>
+            <input name="submit" type="submit" value="add products">
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="product.getProducts.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>edit products</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="id" type="text" placeholder="id">
+            <br>
+            <input name="rid" type="text" placeholder="resseller id">
+            <br>
+            <input name="cid" type="text" placeholder="category id">
+            <br>
+            <input name="subject" type="text" placeholder="subject">
+            <br>
+            <input name="description" type="text" placeholder="description">
+            <br>
+            <input name="picName" type="file" placeholder="picName">
+            <br>
+            <input name="priceBuy" type="text" placeholder="priceBuy">
+            <br>
+            <input name="priceSelltmp" type="text" placeholder="priceSelltmp">
+            <br>
+            <input name="priceSell" type="text" placeholder="priceSell">
+            <br>
+            <input name="number" type="text" placeholder="number">
+            <br>
+            <input name="active" type="text" placeholder="active">
+            <br>
+            <input name="submit" type="submit" value="get products ">
+        </form>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="category.getCategory.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>get category</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="submit" type="submit" value="get category ">
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="category.addCategory.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>add category</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="rid" type="text" placeholder="resseller id">
+            <br>
+            <input name="cpid" type="text" placeholder="cat parent id">
+            <br>
+            <input name="subject" type="text" placeholder="subject">
+            <br>
+            <input name="description" type="text" placeholder="description">
+            <br>
+            <input name="pic" type="text" placeholder="pic">
+            <br>
+            <input name="submit" type="submit" value="add category">
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="category.delCategory.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>delete category</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="cid" type="text" placeholder="cid">
+            <br>
+            <input name="submit" type="submit" value="delete category">
+        </form>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="order.getOrders.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>get orders</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="submit" type="submit" value="get category ">
+        </form>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <form method="post" action="order.getOrderDetails.php" style="border: 1px solid lightgray;margin: 20px">
+            <p>get order details</p>
+            <input name="uname" type="text" placeholder="username">
+            <br>
+            <input name="pass" type="text" placeholder="password">
+            <br>
+            <input name="oid" type="text" placeholder="order id">
+            <br>
+            <input name="submit" type="submit" value="add category">
+        </form>
+    </div>
+</div>
+</body>
+</html>
